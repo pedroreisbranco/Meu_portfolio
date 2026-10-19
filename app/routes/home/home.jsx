@@ -41,8 +41,8 @@ export const links = () => {
 
 export const meta = () => {
   return baseMeta({
-    title: 'Designer + Developer',
-    description: `Design portfolio of ${config.name} — a product designer working on web & mobile apps with a focus on motion, experience design, and accessibility.`,
+    title: 'Desenvolvimento, IA e Automação',
+    description: `Portfólio de ${config.name}: automações com n8n, agentes de IA, integrações de APIs, CRM e desenvolvimento web.`,
   });
 };
 
@@ -101,14 +101,16 @@ export const Home = () => {
       <ProjectSummary
         id="project-1"
         sectionRef={projectOne}
+        buttonText="Conversar sobre o projeto"
+        buttonLink="https://wa.me/5551992415089?text=Olá%20Pedro,%20quero%20conversar%20sobre%20agentes%20de%20IA"
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Projetando o futuro de empresas"
-        description="Automatizei fluxos de CRM usando N8N e Inteligência Artificial, aumentando a eficiência e reduzindo tarefas manuais em empresas de médio porte."
+        title="Agentes de IA para atendimento e agendamento"
+        description="Assistentes conectados a WhatsApp, APIs e ferramentas de agenda para qualificar conversas, responder dúvidas e encaminhar pedidos de agendamento com regras claras."
         showButton={true}
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Interface ilustrativa em notebook',
           textures: [
             {
               srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
@@ -121,14 +123,16 @@ export const Home = () => {
         id="project-2"
         alternate
         sectionRef={projectTwo}
+        buttonText="Conversar sobre o projeto"
+        buttonLink="https://wa.me/5551992415089?text=Olá%20Pedro,%20quero%20conversar%20sobre%20automação%20de%20CRM"
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Integrações com whatssap"
-        description="Implementei automações inteligentes via WhatsApp, permitindo atendimento rápido e personalizado, reduzindo o tempo gasto com tarefas repetitivas."
+        title="Automação de CRM e follow-up de leads"
+        description="Workflows que conectam WhatsApp, Chatwoot, CRMs e bancos de dados para organizar contatos, registrar conversas e automatizar acompanhamentos comerciais."
         showButton={true}
         model={{
           type: 'phone',
-          alt: 'App login screen',
+          alt: 'Interfaces ilustrativas em smartphone',
           textures: [
             {
               srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
@@ -144,10 +148,12 @@ export const Home = () => {
       <ProjectSummary
         id="project-3"
         sectionRef={projectThree}
+        buttonText="Conversar sobre o projeto"
+        buttonLink="https://wa.me/5551992415089?text=Olá%20Pedro,%20quero%20conversar%20sobre%20um%20site%20ou%20produto%20digital"
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Desenvolvimento de Agentes IA e ferramentas"
-        description="Desenvolvi agentes inteligentes em Python para clínicas de nutrição, oferecendo recomendações personalizadas e automatizando processos de análise de dados."
+        title="Sites, landing pages e produtos digitais"
+        description="Desenvolvimento de sites profissionais e experiências web, além de produtos digitais como o Prospecta Sites, pensado para organizar prospecção e oportunidades comerciais."
         showButton={true}
         model={{
           type: 'laptop',
