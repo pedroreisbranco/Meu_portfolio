@@ -1,4 +1,4 @@
-import aiAutomationPreview from '~/assets/pedro-ai-automation.svg';
+import agenteDraDani from '~/assets/agente-dra-dani.png';
 import crmWhatsappPreview from '~/assets/pedro-crm-whatsapp.svg';
 import webProductsPreview from '~/assets/pedro-web-products.svg';
 import { Footer } from '~/components/footer';
@@ -104,8 +104,8 @@ export const Home = () => {
           alt: 'Interface ilustrativa em notebook',
           textures: [
             {
-              srcSet: `${aiAutomationPreview} 1280w, ${aiAutomationPreview} 2560w`,
-              placeholder: aiAutomationPreview,
+              srcSet: `${agenteDraDani} 1280w, ${agenteDraDani} 2560w`,
+              placeholder: agenteDraDani,
             },
           ],
         }}
