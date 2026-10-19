@@ -153,11 +153,11 @@ export const Home = () => {
         visible={visibleSections.includes(projectThree.current)}
         index={3}
         title="Sites, landing pages e produtos digitais"
-        description="Desenvolvimento de sites profissionais e experiências web, além de produtos digitais como o Prospecta Sites, pensado para organizar prospecção e oportunidades comerciais."
+        description="Desenvolvimento de sites profissionais e experiências web, e estou desenvolvendo o Prospecta Sites, uma ferramenta para organizar a prospecção e as oportunidades comerciais."
         showButton={true}
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'Preview ilustrativo de produto web',
           textures: [
             {
               srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
