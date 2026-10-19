@@ -1,15 +1,6 @@
-import gamestackTexture2Large from '~/assets/gamestack-list-large.jpg';
-import gamestackTexture2Placeholder from '~/assets/gamestack-list-placeholder.jpg';
-import gamestackTexture2 from '~/assets/gamestack-list.jpg';
-import gamestackTextureLarge from '~/assets/gamestack-login-large.jpg';
-import gamestackTexturePlaceholder from '~/assets/gamestack-login-placeholder.jpg';
-import gamestackTexture from '~/assets/gamestack-login.jpg';
-import sliceTextureLarge from '~/assets/slice-app-large.jpg';
-import sliceTexturePlaceholder from '~/assets/slice-app-placeholder.jpg';
-import sliceTexture from '~/assets/slice-app.jpg';
-import sprTextureLarge from '~/assets/spr-lesson-builder-dark-large.jpg';
-import sprTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
-import sprTexture from '~/assets/spr-lesson-builder-dark.jpg';
+import aiAutomationPreview from '~/assets/pedro-ai-automation.svg';
+import crmWhatsappPreview from '~/assets/pedro-crm-whatsapp.svg';
+import webProductsPreview from '~/assets/pedro-web-products.svg';
 import { Footer } from '~/components/footer';
 import { baseMeta } from '~/utils/meta';
 import { Intro } from './intro';
@@ -113,8 +104,8 @@ export const Home = () => {
           alt: 'Interface ilustrativa em notebook',
           textures: [
             {
-              srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
-              placeholder: sprTexturePlaceholder,
+              srcSet: `${aiAutomationPreview} 1280w, ${aiAutomationPreview} 2560w`,
+              placeholder: aiAutomationPreview,
             },
           ],
         }}
@@ -135,12 +126,12 @@ export const Home = () => {
           alt: 'Interfaces ilustrativas em smartphone',
           textures: [
             {
-              srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
-              placeholder: gamestackTexturePlaceholder,
+              srcSet: `${crmWhatsappPreview} 375w, ${crmWhatsappPreview} 750w`,
+              placeholder: crmWhatsappPreview,
             },
             {
-              srcSet: `${gamestackTexture2} 375w, ${gamestackTexture2Large} 750w`,
-              placeholder: gamestackTexture2Placeholder,
+              srcSet: `${crmWhatsappPreview} 375w, ${crmWhatsappPreview} 750w`,
+              placeholder: crmWhatsappPreview,
             },
           ],
         }}
@@ -160,8 +151,8 @@ export const Home = () => {
           alt: 'Preview ilustrativo de produto web',
           textures: [
             {
-              srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
-              placeholder: sliceTexturePlaceholder,
+              srcSet: `${webProductsPreview} 800w, ${webProductsPreview} 1920w`,
+              placeholder: webProductsPreview,
             },
           ],
         }}
