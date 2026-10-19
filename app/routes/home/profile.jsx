@@ -18,26 +18,24 @@ import styles from './profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Olá, tudo bem?" start={visible} delay={500} />
+      <DecoderText text="Olá, eu sou o Pedro." start={visible} delay={500} />
     </Heading>
 
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      Eu sou o <strong>Pedro</strong>, desenvolvedor <strong>Full Stack</strong> especializado em{' '}
-      <strong>Inteligência Artificial</strong> e <strong>Automação com n8n</strong>. Atualmente moro em{' '}
-      <strong>Porto Alegre</strong> e trabalho com desenvolvimento de soluções que conectam APIs,
-      bancos de dados e automações inteligentes para empresas e negócios.
+      Trabalho com <strong>automação, inteligência artificial e desenvolvimento web</strong>.
+      Crio soluções que conectam ferramentas, reduzem tarefas manuais e ajudam empresas a
+      organizar o atendimento e o processo comercial.
     </Text>
 
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      Meus projetos incluem desenvolvimento de <strong>workflows de atendimento, automação para CRM</strong>,
-      integrações entre plataformas como <strong>Tiny ERP, Chatwoot, PostgreSQL, Pipedrive,</strong>
-      desenvolvimento de <strong>agentes de IA</strong>e Também desenvolvo <strong>Landing Pages modernas e estratégicas</strong>,
-      focadas em performance e conversão.
+      Desenvolvo workflows com <strong>n8n</strong>, agentes de IA, integrações com APIs,
+      WhatsApp e CRMs, além de sites e landing pages. Tenho experiência com ferramentas como
+      <strong> Chatwoot, Pipedrive, PostgreSQL, Supabase e Tiny ERP</strong>.
     </Text>
 
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      No meu tempo livre gosto de ir na <strong>Academia</strong>, explorar tecnologias,
-      sair com os amigos, jogar e estudar inteligência artificial.
+      Meu foco é transformar necessidades reais em soluções práticas: desde automatizar
+      uma etapa do atendimento até conectar sistemas e construir experiências digitais.
     </Text>
   </Fragment>
 );
